@@ -1,0 +1,23 @@
+{
+  "name": "i18n-google-sheets",
+  "version": "0.0.1",
+  "description": "Translations fetcher from google sheets",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && chmod +x dist/index.js",
+    "test": "ts-node src/index.ts"
+  },
+  "bin": {
+    "i18n-google-sheets": "./dist/index.js"
+  },
+  "author": "Pavel P",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.1.1",
+    "googleapis": "^134.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

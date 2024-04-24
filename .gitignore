@@ -1,0 +1,7 @@
+node_modules/
+
+translations/
+
+.env
+
+credentionals.json

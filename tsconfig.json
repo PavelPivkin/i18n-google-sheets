@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "module": "commonjs",
+        "target": "esnext",
+        "strict": true,
+        "esModuleInterop": true,
+        "moduleResolution": "Node",
+        "skipLibCheck": true, // Skip type checking of all declaration files (*.d.ts)
+        "noImplicitAny": true // Raise error on expressions and declarations with an implied 'any' type
+    },
+    "include": [
+        "src/index.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
