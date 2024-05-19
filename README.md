@@ -5,7 +5,7 @@
 ```
 
 #### Google spreadsheet example
----
+
 _Sheet named "controls"_
 | key   | en    | es    |
 | ----- | ----- | ----- |
