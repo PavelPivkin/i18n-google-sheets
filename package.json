@@ -1,6 +1,6 @@
 {
   "name": "i18n-google-sheets",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Translations fetcher from google sheets",
   "main": "dist/index.js",
   "repository": "github:PavelPivkin/i18n-google-sheets",
