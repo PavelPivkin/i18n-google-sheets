@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Translations fetcher from google sheets",
   "main": "dist/index.js",
+  "repository": "github:PavelPivkin/i18n-google-sheets",
+  "bugs": {
+    "url": "https://github.com/PavelPivkin/i18n-google-sheets/issues"
+  },
   "scripts": {
     "build": "tsc -p tsconfig.json && chmod +x dist/index.js",
     "test": "ts-node src/index.ts"

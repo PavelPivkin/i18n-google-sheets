@@ -4,6 +4,49 @@
  npm install i18n-google-sheets --save-dev
 ```
 
+#### Google spreadsheet example
+---
+_Sheet named "controls"_
+| key   | en    | es    |
+| ----- | ----- | ----- |
+| ready | ready | listo |
+---
+
+_Sheet named "root" (or "all")_
+| key | en  | es  |
+| --- | --- | --- |
+| yes | yes | si  |
+---
+
+Both sheets will be fetched and processed into the following files:
+
+_en.json_
+```
+{
+    "controls": {
+        "ready": "ready"
+    },
+    "yes": "yes"
+}
+```
+_es.json_
+  
+```
+{
+    "controls": {
+        "ready": "listo"
+    },
+    "yes": "si"
+}
+```
+
+
+#### Google API Credentials
+
+Create an API key or service account with API key on [google cloud](https://console.cloud.google.com/)
+
+[Enable](https://console.cloud.google.com/apis/library/sheets.googleapis.com) the google sheets API for your project
+
 #### Create a .env file with the GOOGLE API CREDENTIALS
 
 ```
